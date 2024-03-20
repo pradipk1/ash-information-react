@@ -1,0 +1,36 @@
+
+.FooterThirdSectionCont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.footerInp {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: rgb(214, 209, 209);
+}
+
+.footerSubscribeBtn {
+    width: 190px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+}
+.footerSubscribeBtn>span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footerSubscribeBtn>span:last-child {
+    color: rgb(41, 199, 112);
+}

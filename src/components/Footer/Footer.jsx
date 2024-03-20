@@ -1,11 +1,20 @@
 import React from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
+import FooterFirstSection from './FooterFirstSection/FooterFirstSection';
+import FooterSecondSection from './FooterSecondSection/FooterSecondSection';
+import FooterThirdSection from './FooterThirdSection/FooterThirdSection';
 
 function Footer() {
   return (
     <div className='footerMain'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique adipisci neque distinctio consequatur placeat delectus, minus ullam aliquam possimus modi fugit nostrum sunt dolorum ad, nisi nobis? Odit, consectetur quasi.
-        Quaerat quibusdam voluptatum corporis amet laboriosam quas libero saepe, ipsam fugiat itaque in modi repellat aperiam recusandae ullam facere cumque laudantium qui quis magni minus at eaque numquam! Illo, pariatur.
+        <div className='footerCont'>
+
+            <FooterFirstSection />
+            <FooterSecondSection />
+            <FooterThirdSection />
+
+        </div>
     </div>
   )
 }

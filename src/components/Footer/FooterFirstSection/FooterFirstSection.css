@@ -1,0 +1,55 @@
+
+.footerFirstSection {
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* border: 1px solid red; */
+
+}
+
+.footerHomeLogoCont {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.footerHomeLogo {
+    text-align: center;
+}
+.footerHomeLogo>a>h2 {
+    color: white;
+    margin-top: -10px;
+    font-size: 22px;
+    font-weight: 300;
+}
+.footerHomeLogo>a>p {
+    color: rgb(99, 95, 95);
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: -3px;
+}
+.footerSocialLink {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.footerContactCont {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+.footerContactCont>a {
+    color: rgb(226, 222, 222);
+    text-decoration: none;
+    font-size: 10px;
+}
+.footerContactContLast {
+    align-items: baseline;
+}
+.footerContactCont>div>p {
+    color: rgb(226, 222, 222);
+    font-size: 10px;
+}

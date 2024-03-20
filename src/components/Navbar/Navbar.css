@@ -15,7 +15,7 @@
     margin-left: 70px;
 }
 .navHomeLogo>a>h2 {
-    color: green;
+    color: rgb(41, 199, 112);
     margin-top: -10px;
 }
 .navHomeLogo>a>p {
@@ -31,14 +31,16 @@
     align-items: center;
 }
 .navLinkCont>a {
-    color: green;
+    color: rgb(41, 199, 112);
     text-decoration: none;
     font-weight: bold;
 }
 .navLinkCont>select {
-    padding: 10px;
-    background-color: green;
+    padding: 15px;
+    background-color: rgb(41, 199, 112);
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
+    border: none;
+    outline: none;
 }

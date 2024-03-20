@@ -11,7 +11,6 @@ function Navbar() {
             <Link to='/' style={{textDecoration: 'none'}}>
                 <div>
                     <img src={tree} alt="tree" width='40px'/>
-                    {/* <img src={tree} alt="tree" width='40px'/> */}
                 </div>
                 <h2>Trophy Nig.</h2>
                 <p>PROPERTY LIMITED</p>
