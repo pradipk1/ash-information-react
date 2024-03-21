@@ -1,0 +1,34 @@
+
+.MeetDesignerCardCont {
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.MeetDesignerCardCont>img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.MeetDesignerCardCont>h3 {
+    margin: 8px auto;
+}
+.MeetDesignerCardCont>p {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(139, 136, 136);
+    margin-bottom: 15px;
+}
+
+.designerSocialLinkCont>a {
+    margin-right: 15px;
+}
+
+.MeetDesignerCardContHover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.MeetDesignerCardContHover>img {
+    width: 250px;
+    height: 250px;
+}
+
