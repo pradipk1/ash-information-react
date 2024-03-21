@@ -1,15 +1,14 @@
 
 .footerMain {
+    padding: 30px;
     width: 100%;
-    height: 50vh;
+    /* height: 50vh; */
     background-color: rgb(41, 199, 112);
-    position: fixed;
-    bottom: 0;
     color: white;
 }
 
 .footerCont {
-    margin: 30px auto;
+    margin: auto;
     width: 80%;
     display: flex;
     justify-content: space-between;

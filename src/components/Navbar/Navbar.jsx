@@ -24,7 +24,9 @@ function Navbar() {
             <Link to='/'>Search</Link>
             <Link to='/'>About us</Link>
             <Link to='/'>Contact us</Link>
-            <img src={profileLogo} alt="profileLogo" width='30px'/>
+            <div style={{cursor: 'pointer'}}>
+                <img src={profileLogo} alt="profileLogo" width='30px'/>
+            </div>
             <select>
                 <option value="">Create Listing</option>
             </select>

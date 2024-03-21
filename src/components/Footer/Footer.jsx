@@ -9,11 +9,9 @@ function Footer() {
   return (
     <div className='footerMain'>
         <div className='footerCont'>
-
             <FooterFirstSection />
             <FooterSecondSection />
             <FooterThirdSection />
-
         </div>
     </div>
   )

@@ -4,10 +4,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
     z-index: 100;
-    background-color: blanchedalmond;
+    background: transparent;
+
 }
 
 .navHomeLogo {
@@ -17,10 +20,13 @@
 .navHomeLogo>a>h2 {
     color: rgb(41, 199, 112);
     margin-top: -10px;
+    font-size: 22px;
+    font-weight: 500;
 }
 .navHomeLogo>a>p {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 400;
 }
 
 .navLinkCont{

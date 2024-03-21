@@ -1,11 +1,8 @@
 
 .footerFirstSection {
-    /* width: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: left;
-    /* border: 1px solid red; */
-
 }
 
 .footerHomeLogoCont {
