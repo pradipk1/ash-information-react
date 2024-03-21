@@ -23,7 +23,7 @@ function MeetDesigner() {
         <div className='designerCardCont'>
           {
             designersData.map((ele, ind) => (
-              <MeetDesignerCard cardData={ele} key={`designercard${ind}`}/>
+              <MeetDesignerCard cardData={ele} key={`designercard${ind}`} />
             ))
           }
         </div>

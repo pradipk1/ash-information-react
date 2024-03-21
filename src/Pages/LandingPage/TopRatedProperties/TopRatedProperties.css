@@ -1,0 +1,28 @@
+
+.TopRatedPropertiesCont {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.TopRatedPropertiesCont>h1 {
+    margin-bottom: 15px;
+    font-size: 42px;
+    color: rgb(41, 199, 112);
+    font-weight: 600;
+}
+.TopRatedPropertiesCont>p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(97, 94, 94);
+}
+
+.topRatedCardMain {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
